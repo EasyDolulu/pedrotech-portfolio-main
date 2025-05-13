@@ -1,0 +1,7 @@
+.fade-in {
+    opacity: 0; /* 初始透明度 */
+  }
+  .fade-in.visible {
+    opacity: 1; /* 可见时的透明度 */
+    transition: opacity 1s ease-in-out; /* 渐变效果 */
+  }
