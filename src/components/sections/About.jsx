@@ -87,7 +87,7 @@ export const About = () => {
             <div className="flex items-center justify-center">
               <img
                 className="fade-in p-30 opacity-0 transition-opacity duration-1000 h-230 "
-                src="/pedrotech-portfolio/img/me.png"
+                src="./img/me.png"
                 alt="Team"
                 ref={(el) => (imgRefs.current[0] = el)}
               />
@@ -95,7 +95,7 @@ export const About = () => {
               
             <img
               className="fade-in p-30 opacity-0 transition-opacity duration-1000"
-              src="/pedrotech-portfolio/img/team.png"
+              src="./img/team.png"
               alt="Team"
               ref={(el) => (imgRefs.current[1] = el)}
             />            
@@ -129,7 +129,7 @@ export const About = () => {
             <div className="flex items-center justify-center">
               <img
                 className="fade-in pt-20 pb-30 opacity-0 transition-opacity duration-1000 h-180"
-                src="/pedrotech-portfolio/img/work.png"
+                src="./img/work.png"
                 alt="Team"
                 ref={(el) => (imgRefs.current[2] = el)}
               />  
