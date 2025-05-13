@@ -76,13 +76,13 @@ export const Projects = () => {
               </div>
 
               <div className="flex justify-between items-center">
-                <a
+                {/* <a
                   href="/pedrotech-portfolio/projects/pygame.zip "
                   className="text-xl text-blue-400 hover:text-blue-300 transition-colors my-4"
                   download
                 >
                   View Project →
-                </a>
+                </a> */}
               </div>
             </div>
             

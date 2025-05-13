@@ -23,7 +23,7 @@ function App() {
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100 bg-[url(/pedrotech-portfolio/img/bgimage.jpg)] bg-no-repeat bg-opacity-`}
+        } bg-black text-gray-100 bg-no-repeat bg-opacity-`}
       >
         <ParticlesBackground />
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
