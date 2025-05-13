@@ -87,15 +87,15 @@ export const About = () => {
             <div className="flex items-center justify-center">
               <img
                 className="fade-in p-30 opacity-0 transition-opacity duration-1000 h-230 "
-                // src={`${process.env.PUBLIC_URL}/img/me.png`}
-                alt="Team"
+                src={`${import.meta.env.VITE_BASE_URL}img/me.png`}
+                alt="me"
                 ref={(el) => (imgRefs.current[0] = el)}
               />
             </div>
               
             <img
               className="fade-in p-30 opacity-0 transition-opacity duration-1000"
-              // src={`${process.env.PUBLIC_URL}/img/team.png`}
+              src={`${import.meta.env.VITE_BASE_URL}img/team.png`}
               alt="Team"
               ref={(el) => (imgRefs.current[1] = el)}
             />            
@@ -129,8 +129,8 @@ export const About = () => {
             <div className="flex items-center justify-center">
               <img
                 className="fade-in pt-20 pb-30 opacity-0 transition-opacity duration-1000 h-180"
-                // src={`${process.env.PUBLIC_URL}/img/work.png`}
-                alt="Team"
+                src={`${import.meta.env.VITE_BASE_URL}img/work.png`}
+                alt="work"
                 ref={(el) => (imgRefs.current[2] = el)}
               />  
             </div>
