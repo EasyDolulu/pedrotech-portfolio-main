@@ -77,9 +77,9 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="/pedrotech-portfolio-main/projects/pygame.zip "
+                  href="/projects/pygame.zip "
                   className="text-xl text-blue-400 hover:text-blue-300 transition-colors my-4"
-                  download
+                  download = "pygame-project.zip"
                 >
                   View Project →
                 </a>
